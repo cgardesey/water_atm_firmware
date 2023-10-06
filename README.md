@@ -1,6 +1,6 @@
 # Arduino Water ATM Project
 
-This is an Arduino project that demonstrates school alarm system . The project uses the Arduino programming language and can be customised for similar projects
+This is an Arduino project that allows clients to dispense water for users . The project uses the Arduino programming language and can be customised for similar projects
 
 ## Table of Contents
 - [Features](#features)
@@ -14,11 +14,12 @@ This is an Arduino project that demonstrates school alarm system . The project u
 
 ## Features
 
-- Automated water dispensing based on user input and payment.
-- Real-time monitoring of water levels.
-- Secure payment system integrated with Arduino.
-- User-friendly interface for easy interaction.
-- Low-cost components for widespread implementation.
+This project includes the following features:
+- **Bluetooth Connectivity**: Hardware connects to android app via Bluetooth for secure and efficient communication.
+- **Balance Topup**: Each user has and RFID tag. Clients topup balance on users' RFID tag. On the user screen of android app, client places RFID tag on hardware to launch topup material dialog for balance topup.
+- **Register Tag**: Hardware allows clients to register new tags for their users. On the user tag list screen of android app, user places RFID tag on hardware to launch *Register Tag* material dialog to register new tags for users.
+- **Voice Propt**: Automated voice promt to welcome and thank users at the start and end of the water vending process respectively.
+- **Solar Power**: Solar pawered batteries to keep the hardware system powered
 
 ## Requirements
 To run this project, you will need the following components:
