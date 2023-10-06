@@ -1,4 +1,4 @@
-# Arduino Water ATM Project
+# Arduino Project: Arduino Water ATM
 
 This is an Arduino project that allows clients to dispense water for users . The project uses the Arduino programming language and can be customised for similar projects
 
@@ -64,6 +64,8 @@ Contributions to this project are welcome. If you would like to contribute, plea
 2. Create a new branch for your feature or bug fix.
 3. Make your changes and test them thoroughly.
 4. Submit a pull request with a clear description of your changes.
+
+If you're looking to integrate with android app project, make sure to check out the the repository corresponding to the [android app](https://github.com/cgardesey/Aquanaut) for detailed instructions.
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to modify and distribute this project as needed.
